@@ -10,17 +10,18 @@
     }
 }
 
-.contact{
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: 60vh;
     background: linear-gradient(to right, #08415c, #cc2936);
     clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0 100%);
-    padding: 8% 5% 8% 5%;
+    padding: 8% 5% 5% 5%;
 }
 
-.contact-title {
+.contact h1 {
     font-size: 2.5rem;
     font-weight: 600;
     color: white;
@@ -28,4 +29,22 @@
     text-align: center;
     opacity: 0;
     animation: ContactAppear 2s ease-out forwards;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1.4rem;
+    color: white;
+    font-weight: 500;
+}
+
+.notification {
+    margin-top: 0.8rem;
+    font-size: small;
+    padding: 0.8rem;
+    background-color: #333333;
+    color: #fff;
+    border-radius: 1rem;
+    display: flex;
 }

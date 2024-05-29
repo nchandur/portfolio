@@ -8,7 +8,7 @@ const About = () => {
     return (
         <div id="about" className="about">
             <div className="about-title">
-                About Me
+                ABOUT ME
             </div>
             <div className="about-content">
                 <div className="about-left">

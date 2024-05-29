@@ -1,0 +1,31 @@
+@keyframes ContactAppear {
+    from {
+        transform: translateX(1%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(to right, #08415c, #cc2936);
+    clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0 100%);
+    padding: 8% 5% 8% 5%;
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 6%;
+    text-align: center;
+    opacity: 0;
+    animation: ContactAppear 2s ease-out forwards;
+}

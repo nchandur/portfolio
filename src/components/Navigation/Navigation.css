@@ -1,0 +1,19 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar-logo {
+    height: 3.5rem;
+}
+
+.navbar .navbar-brand {
+    margin-right: auto;
+}
+
+.navbar .nav-link {
+    margin-left: 3rem;
+    margin-right: 1rem;
+}

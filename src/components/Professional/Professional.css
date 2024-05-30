@@ -39,6 +39,11 @@
     animation: WorkSlideRight 1s forwards;
 }
 
+.fade-out {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+
 .professional {
     display: flex;
     flex-direction: column;
@@ -51,7 +56,10 @@
 
 .professional h1 {
     margin-bottom: 3rem;
+    font-size: 2.5rem;
+    font-weight: 600;
     animation: WorkTitleSlideUp 2s ease-out forwards;
+    color: #08415c;
 }
 
 .work-card {
@@ -63,28 +71,26 @@
     border-radius: 0.5rem;
     box-sizing: border-box;
     background-color: #f9f9f9;
-    box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.5s ease-in-out;
     opacity: 0;
 }
 
-.work-card h4{
+.work-card h4 {
     font-size: 1.2rem;
     color: #555;
 }
 
-.work-card h5{
+.work-card h5 {
     margin-bottom: 1rem;
 }
 
-.work-card p{
+.work-card p {
     margin: 0.5rem 0;
     padding-bottom: 2rem;
 }
 
-.work-card:hover{
+.work-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.2);
 }
 
 .work-header {
@@ -98,7 +104,20 @@
     color: #555;
 }
 
-.work-header h3{
+.work-header h3 {
     font-weight: 500;
     font-size: 1.5rem;
+}
+
+.even-card:hover {
+    box-shadow: 0 0.2rem 0.4rem rgba(8, 65, 92, 0.2);
+}
+
+.odd-card:hover {
+    box-shadow: 0 0.2rem 0.4rem rgba(204, 41, 54, 0.2);
+}
+
+.button-light-container {
+    margin-top: 2rem;
+    cursor: pointer;
 }

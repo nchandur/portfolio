@@ -1,27 +1,55 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Professional.css";
 import { work } from "./work.js";
+import ButtonLight from "../ButtonLight/ButtonLight";
 
 const Professional = () => {
+    const [showAll, setShowAll] = useState(false);
     const workRefs = useRef([]);
 
     useEffect(() => {
-        workRefs.current.forEach((ref, index) => {
+        workRefs.current.slice(0, 3).forEach((ref, index) => {
             setTimeout(() => {
                 if (ref) {
                     ref.classList.add(index % 2 === 0 ? 'slide-in-left' : 'slide-in-right');
                 }
-            }, index * 1000);
+            }, index * 300);
         });
     }, []);
+
+    const handleToggle = () => {
+        setShowAll(!showAll);
+    };
+
+    useEffect(() => {
+        if (showAll) {
+            workRefs.current.slice(3).forEach((ref, index) => {
+                setTimeout(() => {
+                    if (ref) {
+                        ref.classList.add(ref.classList.contains('even-card') ? 'slide-in-left' : 'slide-in-right');
+                        ref.classList.remove('fade-out');
+                    }
+                }, index * 300);
+            });
+        } else {
+            workRefs.current.slice(3).forEach((ref, index) => {
+                setTimeout(() => {
+                    if (ref) {
+                        ref.classList.remove('slide-in-left', 'slide-in-right');
+                        ref.classList.add('fade-out');
+                    }
+                }, index * 300);
+            });
+        }
+    }, [showAll]);
 
     return (
         <div id="professional" className="professional">
             <h1>CAREER OVERVIEW</h1>
-            {work.map((item, index) => (
+            {work.slice(0, showAll ? work.length : 3).map((item, index) => (
                 <div
                     key={index}
-                    className="work-card"
+                    className={`work-card ${index % 2 === 0 ? 'even-card' : 'odd-card'}`}
                     ref={(el) => (workRefs.current[index] = el)}
                 >
                     <div className="work-header">
@@ -35,8 +63,11 @@ const Professional = () => {
                     </div>
                 </div>
             ))}
+            <div onClick={handleToggle} className="button-light-container">
+                <ButtonLight text={showAll ? "Show Less" : "Show More"} />
+            </div>
         </div>
     );
-}
+};
 
 export default Professional;

@@ -16,7 +16,6 @@
     cursor: pointer;
     overflow: hidden;
     transition: color 0.4s 0.08s;
-    width: 8rem;
 }
 
 .button-light::before {

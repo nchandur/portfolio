@@ -24,11 +24,13 @@ const Contact = () => {
     return (
         <div id="contact" className="contact">
             <h1>CONTACT</h1>
-            <h2>Let's work together!</h2>
-            <div onClick={copyEmail}>
-                <ButtonDark className="contact-button" text="Contact me" />
+            <div className="contact-content">
+                <h2>Let's work together!</h2>
+                <div onClick={copyEmail}>
+                    <ButtonDark className="contact-button" text="Contact me" />
+                </div>
+                {notification && <div className="notification">{notification}</div>}
             </div>
-            {notification && <div className="notification">{notification}</div>}
         </div>
     );
 }

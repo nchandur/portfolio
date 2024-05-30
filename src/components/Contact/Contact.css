@@ -1,11 +1,21 @@
 @keyframes ContactAppear {
     from {
-        transform: translateX(1%);
+        transform: translateX(5%);
         opacity: 0;
     }
 
     to {
         transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes ContactSlideUp {
+    from {transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0%);
         opacity: 1;
     }
 }
@@ -22,10 +32,11 @@
 }
 
 .contact h1 {
-    font-size: 2.5rem;
+    font-size: 250%;
     font-weight: 600;
     color: white;
-    margin-bottom: 6%;
+    margin-top: 5%;
+    margin-bottom: 3%;
     text-align: center;
     opacity: 0;
     animation: ContactAppear 2s ease-out forwards;
@@ -47,4 +58,12 @@
     color: #fff;
     border-radius: 1rem;
     display: flex;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: ContactSlideUp 1.5s ease-out forwards;
 }

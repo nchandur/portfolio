@@ -31,7 +31,7 @@
 }
 
 .button-dark:hover::before {
-    width: 8.5rem;
+    width: 100%;
 }
 
 .button-dark:hover {

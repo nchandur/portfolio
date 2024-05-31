@@ -34,11 +34,17 @@
     }
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .about {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: auto;
     background: linear-gradient(to right, #08415c, #cc2936);
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     padding: 3% 5% 8% 5%;

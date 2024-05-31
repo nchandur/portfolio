@@ -37,4 +37,5 @@
 .button-light:hover {
     color: white;
     transition: color 0.4s 0.08s;
+    cursor: pointer;
 }

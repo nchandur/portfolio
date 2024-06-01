@@ -34,9 +34,11 @@
     }
 }
 
-html, body {
+body,
+html {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 .about {
@@ -57,7 +59,7 @@ html, body {
     margin-bottom: 6%;
     text-align: center;
     opacity: 0;
-    animation: AboutSlideInRight 1.5s ease-out forwards;
+    animation: AboutSlideInRight 1s ease-out forwards;
 }
 
 .about-content {
@@ -71,8 +73,8 @@ html, body {
     flex: 1;
     margin: 0 2%;
     opacity: 0;
-    animation: AboutSlideUp 1.5s ease-out forwards;
-    animation-delay: 1s;
+    animation: AboutSlideUp 1s ease-out forwards;
+    animation-delay: 0.5s;
 }
 
 .about-left img {
@@ -86,8 +88,8 @@ html, body {
     flex: 1;
     margin: 0 2%;
     opacity: 0;
-    animation: AboutSlideInLeft 1.5s ease-out forwards;
-    animation-delay: 1.5s;
+    animation: AboutSlideInLeft 1s ease-out forwards;
+    animation-delay: 0.5s;
 }
 
 .about-right p {

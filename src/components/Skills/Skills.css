@@ -3,7 +3,6 @@
         transform: translateY(-5%);
         opacity: 0;
     }
-
     to {
         transform: translateY(0%);
         opacity: 1;
@@ -15,7 +14,6 @@
         transform: translateX(-4%);
         opacity: 0;
     }
-
     to {
         transform: translateX(0);
         opacity: 1;
@@ -27,18 +25,27 @@
         transform: translateX(4%);
         opacity: 0;
     }
-
     to {
         transform: translateX(0);
         opacity: 1;
     }
 }
 
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
 .skills {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 3% 5% 8% 5%;
 }
 
 .skills-row {
@@ -51,6 +58,7 @@
 
 .skill-card {
     background-color: #f9f9f9;
+    flex: 1;
     border-radius: 0.5rem;
     padding: 1rem;
     width: 50%;
@@ -62,24 +70,32 @@
 .skills h1 {
     font-size: 2.5rem;
     font-weight: 600;
-    margin-bottom: 3rem;
+    margin-bottom: 6%;
+    text-align: center;
+    opacity: 0;
     color: #08415c;
-    animation: TechTitleSlideUp 2s ease-out forwards;
+    animation: TechTitleSlideUp 1s ease-out forwards;
 }
 
 .skill-card h5 {
     font-size: 1.2rem;
-    margin-bottom: 0.5rem;
 }
 
-.skill-card p {
+.skill-card ul {
     font-size: 0.9rem;
     margin: 0;
+    padding-left: 1.5rem;
+}
+
+.skill-card li {
+    list-style-type: disc;
+    margin-bottom: 0.3rem;
 }
 
 .skill-card:hover {
     transform: scale(1.01);
 }
+
 
 .slide-left {
     animation: slideInLeft 1s ease-out forwards;

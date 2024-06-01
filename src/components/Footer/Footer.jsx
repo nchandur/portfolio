@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
             <hr />
             <p>
-                &copy; {year} - Created and maintained by <a rel="noreferrer" href="/">Nischal Chandur</a>
+                &copy; {year} - Created and maintained by <a rel="noreferrer" href="#">Nischal Chandur</a>
             </p>
 
         </div>

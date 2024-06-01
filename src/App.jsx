@@ -23,8 +23,8 @@ class App extends React.Component {
         <About />
         <Professional />
         <Skills />
-        <Education />
         <Projects />
+        <Education />
         <Contact />
         <Footer />
 

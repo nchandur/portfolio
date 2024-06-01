@@ -31,6 +31,14 @@
     }
 }
 
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
 .slide-in-left {
     animation: WorkSlideLeft 1s forwards;
 }
@@ -48,18 +56,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    max-height: 100%;
-    padding: 2rem 0;
+    width: 100%;
+    height: auto;
+    padding: 3% 5% 8% 5%;
+
 }
 
 .professional h1 {
-    margin-bottom: 3rem;
     font-size: 2.5rem;
     font-weight: 600;
-    animation: WorkTitleSlideUp 2s ease-out forwards;
+    margin-bottom: 6%;
+    text-align: center;
     color: #08415c;
+    animation: WorkTitleSlideUp 1s ease-out forwards;
 }
 
 .work-card {

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Professional.css";
-import { work } from "./work.js";
+import { work } from "../../assets/files/WorkDetails.js";
 import ButtonLight from "../ButtonLight/ButtonLight";
 
 const Professional = () => {
@@ -71,3 +71,4 @@ const Professional = () => {
 };
 
 export default Professional;
+

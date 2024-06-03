@@ -25,8 +25,10 @@ const Education = () => {
                         <h2>University of Maryland</h2>
                         <span className="degree-date">August 2023 - Present</span>
                     </div>
-                    <h4>College Park, MD, United States of America</h4>
-                    <p>Master of Science in Data Science</p>
+                    <div className="degree-content">
+                        <h5>College Park, MD, United States of America</h5>
+                        <p>Master of Science in Data Science</p>
+                    </div>
                     <div className="coursework">
                         <div className="button-light-container" onClick={toggleMastersCoursework}>
                             <ButtonLight text={showMastersCoursework ? "Hide Coursework" : "Show Coursework"} />
@@ -48,8 +50,10 @@ const Education = () => {
                         <h2>PES University</h2>
                         <span className="degree-date">August 2018 - May 2022</span>
                     </div>
-                    <h4>Bangalore, KA, India</h4>
-                    <p>Bachelor of Technology in Electronics and Communication Engineering</p>
+                    <div className="degree-content" >
+                        <h5>Bangalore, KA, India</h5>
+                        <p>Bachelor of Technology in Electronics and Communication Engineering</p>
+                    </div>
                     <div className="coursework">
                         <div className="button-light-container" onClick={toggleBachelorsCoursework}>
                             <ButtonLight text={showBachelorsCoursework ? "Hide Coursework" : "Show Coursework"} />

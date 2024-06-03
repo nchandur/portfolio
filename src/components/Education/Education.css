@@ -28,12 +28,6 @@
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.degree-header {
-    display: flex;
-    justify-content: space-between;
-}
-
-
 .degree h2 {
     font-weight: 500;
     margin-bottom: 0.5rem;
@@ -44,8 +38,15 @@
     margin: 0.5rem 0;
 }
 
+.degree-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 .coursework-item {
     padding: 1rem;
+    border: 1px solid #dee2e6;
 }
 
 .education-card-row {
@@ -60,14 +61,6 @@
 .button-light-container {
     margin-bottom: 1rem;
     cursor: pointer;
-}
-
-#bachelors {
-    animation: CardSlideRight 1s ease-out forwards;
-}
-
-#masters {
-    animation: CardSlideLeft 1s ease-out forwards;
 }
 
 @keyframes TitleSlideUp {

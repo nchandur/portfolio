@@ -1,5 +1,5 @@
 import React from "react";
-import pfp from "../../assets/images/pfp.jpg";
+// import pfp from "../../assets/images/pfp.jpg";
 import "./About.css";
 import ButtonDark from "../ButtonDark/ButtonDark";
 
@@ -11,7 +11,7 @@ const About = () => {
             </div>
             <div className="about-content">
                 <div className="about-left">
-                    <img src={ pfp } alt="Profile picture not available" />
+                    <img src="images/pfp.jpg" alt="Profile picture not available" />
                 </div>
                 <div className="about-right">
                     <p>

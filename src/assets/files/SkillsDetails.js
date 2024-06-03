@@ -1,7 +1,7 @@
 const skills = [
   {
     title: "Data Science and Machine Learning",
-    content: ["SpaCy | Pytesseract | OpenCV", "Numpy | scikit-learn | Pandas", "Matplotlib | Seaborn"]
+    content: ["SpaCy | Pytesseract | OpenCV | scikit-learn ", "Numpy | Pandas", "Matplotlib | Seaborn"]
   },
   {
     title: "Database Management Systems",
@@ -17,7 +17,7 @@ const skills = [
   },
   {
     title: "Other",
-    content: ["Amazon Web Services (AWS)", "Docker", "Git", "Microsoft Office Suite"]
+    content: ["Git", "Docker", "Amazon Web Services (AWS)", "Microsoft Office Suite"]
   },
 ];
 

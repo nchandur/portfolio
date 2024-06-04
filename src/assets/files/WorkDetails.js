@@ -6,13 +6,13 @@ const work = [
         role: "Data Science Graduate Intern",
         summary: ""
     },
-    // {
-    //     name: "ReWorked.ai",
-    //     time: "Yet to decide",
-    //     location: "College Park, MD, USA",
-    //     role: "Yet to decide",
-    //     summary: "I developed an algorithm to predict the likelihood of a person installing solar panels at their residence. To build this, I studied various factors that influence such decisions and consulted with industry experts for deeper insights. I conducted extensive exploratory data analysis to understand how these factors impact the final decision. By leveraging Bayesian inference and machine learning techniques, I created a score generation algorithm that provides insights into a person's likelihood of installing solar panels. Additionally, I built a rules-based score generation engine based on the expertise of industry professionals."
-    // },
+    {
+        name: "ReWorked.ai",
+        time: "April 2024 - May 2024",
+        location: "College Park, MD, USA",
+        role: "Machine Learning Engineer",
+        summary: "I developed an algorithm to predict the likelihood of a person installing solar panels at their residence. To build this, I studied various factors that influence such decisions and consulted with industry experts for deeper insights. I conducted extensive exploratory data analysis to understand how these factors impact the final decision. By leveraging Bayesian inference and machine learning techniques, I created a score generation algorithm that provides insights into a person's likelihood of installing solar panels. Additionally, I built a rules-based score generation engine based on the expertise of industry professionals."
+    },
 
     {
         name: "Latlong (ONZE Technologies Pvt. Ltd.)",

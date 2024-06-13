@@ -1,5 +1,4 @@
 import React from "react";
-// import pfp from "../../assets/images/pfp.jpg";
 import "./About.css";
 import ButtonDark from "../ButtonDark/ButtonDark";
 

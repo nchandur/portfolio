@@ -1,14 +1,21 @@
 const work = [
     {
+        name: "University of Maryland",
+        time: "August 2024 - Present",
+        location: "College Park, MD, USA",
+        role: "Teaching Assistant to Prof. Alejandra Mercado",
+        summary: "",
+    },
+    {
         name: "Ecolab Inc.",
-        time: "June 2024 - Present",
+        time: "June 2024 - August 2024",
         location: "Naperville, IL, USA",
         role: "Data Science Graduate Intern",
-        summary: ""
+        summary: "I worked on a project to improve an AI model designed to detect anomalies in cooling towers by building a comprehensive validation dataset. I combined real-world data with a synthetic data generation algorithm that mimicked sensor readings, allowing for controlled testing of the model. Additionally, I performed feature engineering, including frequency analysis (FFT) on sensor data and relay behavior analysis, to develop independent features that indicate the health of the cooling towers. This work improved the model's accuracy in identifying potential issues, ultimately supporting proactive maintenance in factories, plants, and refineries."
     },
     {
         name: "ReWorked.ai",
-        time: "April 2024 - May 2024",
+        time: "April 2024 - May 2024",  
         location: "College Park, MD, USA",
         role: "Machine Learning Engineer",
         summary: "I developed an algorithm to predict the likelihood of a person installing solar panels at their residence. To build this, I studied various factors that influence such decisions and consulted with industry experts for deeper insights. I conducted extensive exploratory data analysis to understand how these factors impact the final decision. By leveraging Bayesian inference and machine learning techniques, I created a score generation algorithm that provides insights into a person's likelihood of installing solar panels. Additionally, I built a rules-based score generation engine based on the expertise of industry professionals."

@@ -17,7 +17,7 @@ const skills = [
   },
   {
     title: "Other",
-    content: ["Git", "Docker", "Amazon Web Services (AWS)", "Microsoft Office Suite"]
+    content: ["Git/GitHub", "Docker", "Microsoft Azure", "Amazon Web Services (AWS)"]
   },
 ];
 

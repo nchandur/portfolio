@@ -75,3 +75,26 @@ html {
     justify-content: center;
     animation: ContactSlideUp 1.5s ease-out forwards;
 }
+
+.contact-button-container {
+    position: relative;
+    display: inline-block;
+}
+
+.copied-animation {
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333333;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.6rem;
+    animation: fadeOut 1.5s forwards;
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}

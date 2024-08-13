@@ -18,7 +18,7 @@ const About = () => {
                         <br /> <br />
                         When I'm not knee-deep in data, you'll often find me immersed in the bleak world of Dark Souls or in the pages of a captivating novel. I'm an avid runner, always seeking new paths to explore. Whether it's crunching numbers, slaying bosses, or navigating the trails, I thrive on exciting adventures. Feel free to explore my projects and get in touch!
                     </p>
-                    <a href="resume.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="Resume/Resume.html" target="_blank" rel="noopener noreferrer">
                         <ButtonDark text="View Resume" />
                     </a>
                 </div>
@@ -28,4 +28,3 @@ const About = () => {
 }
 
 export default About;
-

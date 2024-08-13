@@ -3,21 +3,15 @@ import ButtonDark from "../ButtonDark/ButtonDark";
 import "./Contact.css";
 
 const Contact = () => {
-    const [notification, setNotification] = useState('');
+    const [copied, setCopied] = useState(false);
 
     const copyEmail = () => {
         const email = "chandur.nischal@gmail.com";
 
         navigator.clipboard.writeText(email).then(() => {
-            setNotification("email copied");
-            setTimeout(() => {
-                setNotification('');
-            }, 500);
+            setCopied(true);
+            setTimeout(() => setCopied(false), 1500);
         }).catch(_ => {
-            setNotification("failed to copy email.");
-            setTimeout(() => {
-                setNotification('');
-            }, 500);
         });
     }
 
@@ -26,10 +20,10 @@ const Contact = () => {
             <h1>CONTACT</h1>
             <div className="contact-content">
                 <h2>Let's work together!</h2>
-                <div onClick={copyEmail}>
-                    <ButtonDark className="contact-button" text="Contact me" />
+                <div onClick={copyEmail} className="contact-button-container">
+                    <ButtonDark className="contact-button" text={"Contact me"} />
+                    {copied && <span className="copied-animation">Copied!</span>}
                 </div>
-                {notification && <div className="notification">{notification}</div>}
             </div>
         </div>
     );

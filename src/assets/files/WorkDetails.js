@@ -3,7 +3,7 @@ const work = [
         name: "University of Maryland",
         time: "August 2024 - Present",
         location: "College Park, MD, USA",
-        role: "Teaching Assistant to Prof. Alejandra Mercado",
+        role: "Teaching Assistant",
         summary: "",
     },
     {

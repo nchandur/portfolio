@@ -4,7 +4,7 @@ const work = [
         time: "August 2024 - Present",
         location: "College Park, MD, USA",
         role: "Teaching Assistant",
-        summary: `Principles of Data Science (Prof. Tammy Perrin)
+        summary: `Principles of Data Science (Prof. Tammy Perrin)\n
         Principles of Machine Learning (Prof. Alejandra Mercado)`,
     },
     {

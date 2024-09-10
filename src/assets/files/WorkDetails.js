@@ -4,7 +4,8 @@ const work = [
         time: "August 2024 - Present",
         location: "College Park, MD, USA",
         role: "Teaching Assistant",
-        summary: "",
+        summary: `Principles of Data Science (Prof. Tammy Perrin)
+        Principles of Machine Learning (Prof. Alejandra Mercado)`,
     },
     {
         name: "Ecolab Inc.",
@@ -20,7 +21,6 @@ const work = [
         role: "Machine Learning Engineer",
         summary: "I developed an algorithm to predict the likelihood of a person installing solar panels at their residence. To build this, I studied various factors that influence such decisions and consulted with industry experts for deeper insights. I conducted extensive exploratory data analysis to understand how these factors impact the final decision. By leveraging Bayesian inference and machine learning techniques, I created a score generation algorithm that provides insights into a person's likelihood of installing solar panels. Additionally, I built a rules-based score generation engine based on the expertise of industry professionals."
     },
-
     {
         name: "Latlong (ONZE Technologies Pvt. Ltd.)",
         time: "September 2022 - June 2023",
@@ -47,6 +47,3 @@ const work = [
 
 
 export { work };
-
-
-

@@ -1,7 +1,11 @@
 const skills = [
   {
-    title: "Data Science and Machine Learning",
+    title: "Data Science & Machine Learning",
     content: ["SpaCy | Pytesseract | OpenCV | scikit-learn ", "Numpy | Pandas", "Matplotlib | Seaborn"]
+  },
+  {
+    title: "Cloud Computing & Data Engineering",
+    content: ["Git/GitHub", "Docker", "Amazon Web Services (AWS)", "Microsoft Azure", "Apache Spark/PySpark"]
   },
   {
     title: "Database Management Systems",
@@ -9,15 +13,11 @@ const skills = [
   },
   {
     title: "Programming Languages",
-    content: ["Python", "MATLAB", "Golang", "C/C++", "HTML/CSS", "JavaScript"]
+    content: ["Python", "R", "MATLAB", "Golang", "C/C++", "HTML/CSS", "JavaScript"]
   },
   {
     title: "Operating Systems",
     content: ["UNIX", "Windows"]
-  },
-  {
-    title: "Other",
-    content: ["Git/GitHub", "Docker", "Microsoft Azure", "Amazon Web Services (AWS)"]
   },
 ];
 

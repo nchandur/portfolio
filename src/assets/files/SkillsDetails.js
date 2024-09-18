@@ -1,11 +1,11 @@
 const skills = [
   {
     title: "Data Science & Machine Learning",
-    content: ["SpaCy | Pytesseract | OpenCV | scikit-learn ", "Numpy | Pandas", "Matplotlib | Seaborn"]
+    content: ["SpaCy | NLTK", " Pytesseract | OpenCV | scikit-learn ", "Numpy | Pandas | PySpark", "Matplotlib | Seaborn"]
   },
   {
     title: "Cloud Computing & Data Engineering",
-    content: ["Git/GitHub", "Docker", "Amazon Web Services (AWS)", "Microsoft Azure", "Apache Spark/PySpark"]
+    content: ["Git/GitHub", "Docker", "Amazon Web Services (AWS) | Microsoft Azure"]
   },
   {
     title: "Database Management Systems",

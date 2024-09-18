@@ -33,11 +33,11 @@ const Education = () => {
                         </div>
                         {showMastersCoursework && (
                             <ListGroup variant="flush" className="coursework-list">
-                                <ListGroup.Item className="coursework-item">Probability and Statistics</ListGroup.Item>
-                                <ListGroup.Item className="coursework-item">Fundamentals of Machine Learning</ListGroup.Item>
-                                <ListGroup.Item className="coursework-item">Algorithms of Data Science</ListGroup.Item>
-                                <ListGroup.Item className="coursework-item">Data Representation and Modeling</ListGroup.Item>
+                                <ListGroup.Item className="coursework-item">Natural Language Processing</ListGroup.Item>
                                 <ListGroup.Item className="coursework-item">Computer Vision</ListGroup.Item>
+                                <ListGroup.Item className="coursework-item">Data Representation and Modeling</ListGroup.Item>
+                                <ListGroup.Item className="coursework-item">Communication in Data Science & Analytics</ListGroup.Item>
+                                <ListGroup.Item className="coursework-item">Algorithms of Data Science</ListGroup.Item>
                             </ListGroup>
                         )}
                     </div>

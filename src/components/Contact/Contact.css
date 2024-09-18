@@ -36,7 +36,7 @@ html {
     height: auto;
     background: linear-gradient(to right, #08415c, #cc2936);
     clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0 100%);
-    padding: 3% 5% 8% 5%;
+    padding: 3% 5% 10% 5%;
 }
 
 .contact h1 {

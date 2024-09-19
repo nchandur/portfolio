@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="Resume.css">
     <title>Nischal Chandur | Resume</title>
 </head>
@@ -18,11 +18,13 @@
             <h4>Nischal Chandur</h4>
             34th Avenue, College Park, MD, United States 20740
             <p>
-                <i class="fas fa-globe"></i> <a href="https://chandurnischal.github.io/portfolio">chandurnischal.github.io/portfolio</a> |
+                <i class="fas fa-globe"></i> <a href="https://chandurnischal.github.io/portfolio"
+                    target="_blank">chandurnischal.github.io/portfolio</a> |
                 <i class="fab fa-linkedin"> </i> <a href="https://www.linkedin.com/in/nischal-chandur"
                     target="_blank">linkedin.com/in/nischal-chandur</a> |
-                <i class="fab fa-github"> </i> <a href="https://github.com/chandurnischal">github.com/chandurnischal</a> |
-                <i class="fas fa-envelope"></i> <a href="mailto:chandur.nischal@gmail.com">chandur.nischal@gmail.com</a> 
+                <i class="fab fa-github"> </i> <a href="https://github.com/chandurnischal">github.com/chandurnischal</a>
+                |
+                <i class="fas fa-envelope"></i> <a href="mailto:chandur.nischal@gmail.com">chandur.nischal@gmail.com</a>
             </p>
 
 
@@ -31,17 +33,16 @@
     </header>
 
     <table class="table table-sm">
-        
+
         <tr>
             <td class="headings">Technical Skills</td>
             <td>
 
                 <ul>
-                    <li><strong>Data Science & Machine Learning: </strong>Pytesseract | OpenCV | SpaCy | scikit-learn | Numpy | Pandas | Matplotlib | Seaborn</li>
+                    <li><strong>Data Science & Machine Learning: </strong>Pytesseract | OpenCV | SpaCy | scikit-learn | SciPy | Statsmodels | Keras | Plotly | Seaborn | Flask</li>
                     <li><strong>Database Management Systems: </strong>PostgreSQL | MySQL | MongoDB</li>
-                    <li><strong>Cloud Computing & Data Engineering: </strong>Git/GitHub | Docker | Amazon Web Services (AWS) | Microsoft Azure | Apache Spark/PySpark </li>
-                    <li><strong>Programming Languages: </strong>Python | R | MATLAB | Golang | C/C++ | HTML/CSS | JavaScript</li>
-                    <li><strong>Operating Systems: </strong>UNIX | Windows</li>
+                    <li><strong>Cloud Computing & Data Engineering: </strong>Amazon Web Services (AWS) | Microsoft Azure | Databricks | Apache Spark/PySpark | Kafka | Git/GitHub | Docker</li>
+                    <li><strong>Programming Languages: </strong>Python | R | MATLAB | Go | C/C++ | HTML/CSS | JavaScript</li>
                 </ul>
             </td>
         </tr>
@@ -52,7 +53,8 @@
                 <ul>
                     <li>
                         <div>
-                            <strong>University of Maryland<span style="float:right">August 2024 - Present</span></strong>
+                            <strong>University of Maryland<span style="float:right">August 2024 -
+                                    Present</span></strong>
                             <p class="subheadings">College Park, MD, USA</p>
                             <p>Teaching Assistant</p>
                             <ul>
@@ -68,11 +70,20 @@
                             <p class="subheadings">Naperville, IL, USA</p>
                             <p>Data Science Graduate Intern</p>
                             <ul>
-                                <li>Consolidated a validation dataset featuring real-world anomaly events from cooling towers.</li>  
-                                <li>Developed a customizable synthetic data generation algorithm to accurately replicate tower sensor readings.</li>  
-                                <li>Performed frequency analysis (FFT) on sensor data to understand the impact of anomalies on frequency spectra.</li>  
-                                <li>Analyzed relay behavior, studying relay uptime to assess the chemical balance within the cooling towers.</li>
+                                <li><strong>Validated AI models for cooling tower monitoring</strong> by analyzing time
+                                    series data of sensor readings (temperature, pH, conductivity) to understand
+                                    behavior during normal operations and anomalies. Used predictive techniques like
+                                    ARIMA and k-shape clustering for analysis.</li>
+                                <li><strong>Developed a validation dataset</strong> containing known anomalies by
+                                    leveraging historical data, company documents, and model outputs, ensuring models
+                                    accurately predicted sensor anomalies.</li>
+                                <li><strong>Created a synthetic data generation algorithm</strong> that mimicked
+                                    real-world sensor data, allowing users to control anomaly duration, frequency, and
+                                    data length. This tool helped in testing boundary conditions across models for
+                                    cooling towers.</li>
                             </ul>
+                            <p><strong>Technologies Used:</strong> Microsoft Azure | Databricks | Snowflake | Apache
+                                Spark | SciPy | Statsmodels | Plotly | SQL</p>
                         </div>
                     </li>
                     <hr>
@@ -82,11 +93,19 @@
                             <p class="subheadings">College Park, MD, USA</p>
                             <p>Machine Learning Engineer</p>
                             <ul>
-                            <li>Developed an algorithm to predict the likelihood of residential solar panel installations using Bayesian inference and machine learning techniques.</li>
-                            <li>Conducted extensive exploratory data analysis to identify key factors influencing solar panel installation decisions.</li>
-                            <li>Collaborated with industry experts to incorporate deep insights and expertise into the algorithm and a rules-based score generation engine.</li>
-                            <li>Created a scoring system to provide actionable insights on the probability of solar panel installations at individual residences.</li>
+                                <li><strong>Predicted likelihood of solar panel installation</strong> by analyzing a
+                                    dataset of demographic and structural variables (age, income, roof area, sunlight
+                                    exposure) through exploratory data analysis and consultation with domain experts.
+                                </li>
+                                <li><strong>Developed a hybrid model</strong> by splitting the problem into two parts:
+                                    applying a Bayesian decision model to demographic data and a random forest
+                                    classifier to structural features, consolidating the results into a single
+                                    probability score.</li>
+                                <li><strong>Improved targeted marketing strategy</strong> by enabling the company to
+                                    identify high-potential neighborhoods, optimizing resource allocation and reducing
+                                    man-hours.</li>
                             </ul>
+                            <p><strong>Technologies Used: </strong>Git/GitHub | scikit-learn | Plotly</p>
                         </div>
                     </li>
                     <hr>
@@ -97,14 +116,20 @@
                             <p class="subheadings">Bangalore, KA, India</p>
                             <p>Data Engineer</p>
                             <ul>
-                                <li>Developed Python-based data extraction tools for location-based analyses,
-                                    identifying untapped profit potential.</li>
-                                <li>Utilized Python and QGIS to study and visualize client data and corresponding
-                                    geo-spatial attributes.</li>
-                                <li>Conducted in-depth statistical analysis to estimate region profitability,
-                                    facilitating informed decision-making for financial institutions, automobile
-                                    companies, and real estate developers.</li>
+                                <li><strong>Developed an OCR data extraction tool</strong> using OpenCV, Pytesseract,
+                                    and fuzzy string matching to extract and process demographic data from English and
+                                    non-English documents, managing missing data and pushing it to a structured database
+                                    for further use.</li>
+                                <li><strong>Built a geo-spatial visualization tool</strong> using Python and QGIS,
+                                    integrating demographic and geo-spatial data to assist a non-banking financial
+                                    company in identifying underperforming areas and new market opportunities, improving
+                                    loan approval rates and profitability.</li>
+                                <li><strong>Enhanced market analysis for an automobile company</strong> by utilizing the
+                                    visualization tool to identify regions where competitors had a stronger market
+                                    share, providing insights to improve operational efficiency and profitability.</li>
                             </ul>
+                            <p><strong>Technologies Used: </strong> OpenCV | Pytesseract | QGIS | PostgreSQL | MongoDB | Docker |
+                                Kafka | Amazon Web Services (AWS)</p>
                         </div>
                     </li>
                     <!-- <hr>
@@ -136,16 +161,19 @@
                     </li>
                     <li class="subheadings">College Park, MD, United States of America</li>
                     <li>Master of Science in Data Science</li>
-                    <li><p>Relevant Coursework: Probability & Statistics | Fundamentals
-                        of Machine Learning | Algorithms of Data Science | Data Representation and Modelling | Computer
-                        Vision</p></li>
+                    <li>
+                        <p>Relevant Coursework: Natural Language Processing | Computer Vision | Data Representation &
+                            Modeling | Communication in Data Science & Analytics | Algorithms of Data Science</p>
+                    </li>
                     <hr>
                     <li><strong>PES University <span style="float:right">August 2018 - May 2022</span></strong></li>
                     <li class="subheadings">Bangalore, KA, India</li>
                     <li>Bachelor of Technology in Electronics and Communication Engineering</li>
                     <li>Specialization in Signal Processing and Systems Engineering (SPaSE)</li>
-                    <li><p>Relevant Coursework: Engineering Mathematics | Linear Algebra | Random
-                        Processes | Artificial Neural Networks | Pattern Classification</p></li>
+                    <li>
+                        <p>Relevant Coursework: Engineering Mathematics | Linear Algebra | Random
+                            Processes | Artificial Neural Networks | Pattern Classification</p>
+                    </li>
                     <li>
 
                 </ul>
@@ -154,7 +182,7 @@
 
         <tr>
             <td class="headings">
-                Projects
+                Relevant Projects
             </td>
             <td>
                 <ul>
@@ -163,15 +191,18 @@
                             <strong>Dimension Reduction Analysis using Fruit-360 Dataset<span
                                     style="float: right;">April 2024 - May 2024</span></strong>
                             <ul>
-                                <li>Explored dimensionality reduction methods PCA, kernel PCA (polynomial and Gaussian
-                                    kernels), t-SNE, and Autoencoder embedding using a subset of the Fruit-360 dataset in
-                                    MATLAB.</li>
-                                <li>Transformed the dataset using these methods and measured the time taken for
-                                    transformation.</li>
-                                <li>Conducted KNN classification on both original and transformed datasets, recording
-                                    accuracy and classification time, demonstrating PCA as the most efficient method for
-                                    dimensionality reduction in terms of accuracy, time, and classification time.</li>
+                                <li><strong>Explored dimension reduction techniques</strong> (PCA, kernel PCA, t-SNE,
+                                    Autoencoder) using the Fruit-360 dataset, analyzing 90,380 images of fruits and
+                                    vegetables by transforming 100x100 images into 1D arrays and applying MATLAB for
+                                    data processing.</li>
+                                <li><strong>Compared embeddings</strong> by visualizing the first two features of each
+                                    technique and evaluating classification performance using KNN, assessing accuracy
+                                    across the dataset and identifying challenging classes.</li>
+                                <li><strong>Identified Principal Component Analysis</strong> as the optimal embedding
+                                    method based on computational efficiency (780ms) and validation accuracy (0.99),
+                                    demonstrating its effectiveness in dimensionality reduction.</li>
                             </ul>
+                            <p><strong>Technologies Used: </strong>MATLAB</p>
                         </div>
                     </li>
                     <hr>
@@ -180,17 +211,11 @@
                             <strong>Sign Language Recognition and Translation<span style="float: right;">March 2024 -
                                     May 2024</span></strong>
                             <ul>
-                                <li>Developed a sign language recognition and translation system employing computer
-                                    vision techniques and convolutional neural networks.</li>
-                                <li>Trained transfer learning models (InceptionV3, MobileNetV2, DenseNet201, ResNet101,
-                                    VGG16) and a custom CNN on Indian and American sign language datasets, optimizing
-                                    training sizes, epochs, and learning rates.</li>
-                                <li>Selected top-performing models for each sign language and deployed them on a web
-                                    application using Flask and ngrok, enabling users to upload images and receive
-                                    recognized gestures along with translations.</li>
-                                <li>Implemented functionality for users to input strings and receive corresponding
-                                    finger-spelled gestures for the words in the string.</li>
+                                <li><strong>Developed a sign language recognition and translation platform</strong> using deep neural networks and computer vision to support learning and communication in Indian (ISL) and American Sign Languages (ASL).</li>
+                                <li><strong>Explored and evaluated multiple transfer learning models</strong> (InceptionV3, MobileNetV2, DenseNet201, ResNet101, VGG16) using precision, recall, F1-score, and accuracy, ultimately developing a custom CNN with 96% validation accuracy for gesture recognition.</li>
+                                <li><strong>Built a web application</strong> using Flask and HTML, enabling users to upload gesture images for recognition or translate text to sign language gestures, facilitating cross-language communication. Deployed via ngrok for global access.</li>
                             </ul>
+                            <p><strong>Technologies Used: </strong>Keras | OpenCV | Plotly | Flask | HTML | ngrok</p>
                         </div>
                     </li>
                     <hr>
@@ -199,24 +224,20 @@
                             <strong>NBA Prediction and Analysis Model<span style="float: right;">August 2023 - December
                                     2023</span></strong>
                             <ul>
-                                <li> Constructed an end-to-end pipeline for NBA game outcome prediction, extracting data
-                                    from online sources, cleaning, transforming, and loading it into a structured
-                                    database.
-                                </li>
-                                <li>Conducted exploratory data analysis to identify key features influencing game
-                                    outcomes, drawing insights from NBA methodologies.
-                                </li>
-                                <li>
-                                    Developed a machine learning algorithm to predict team victory probabilities based
-                                    on
-                                    relevant features.
-                                </li>
-                                <li>
-                                    Created a Flask-based web application to deploy the ML algorithm, allowing users to
-                                    view daily game schedules, detailed game analytics, team and player statistics, and
-                                    league standings.
-                                </li>
+                                <li><strong>Developed a real-time NBA match prediction model</strong> using historic
+                                    data (1980-present), extracting team and player stats, match outcomes, and advanced
+                                    stats, preprocessing and loading the data into a MySQL database for continuous
+                                    updates.</li>
+                                <li><strong>Engineered features</strong> like team elo (Nate Silver's formula), league
+                                    win percentage, and player efficiency rating, performing exploratory data analysis
+                                    to identify the most predictive features and testing various ML models (KNN, Random
+                                    Forest, Naive Bayes) to determine the best fit.</li>
+                                <li><strong>Built a Flask web application</strong> displaying daily NBA matches, showing
+                                    team stats, top performers, and match win probabilities, based on the trained model,
+                                    for user interaction.</li>
                             </ul>
+                            <p><strong>Technologies Used: </strong>BeautifulSoup | MySQL | scikit-learn | Flask |
+                                HTML/CSS</p>
                         </div>
                     </li>
 

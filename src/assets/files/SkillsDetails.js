@@ -1,24 +1,21 @@
 const skills = [
   {
     title: "Data Science & Machine Learning",
-    content: ["SpaCy | NLTK", " Pytesseract | OpenCV | scikit-learn ", "Numpy | Pandas | PySpark", "Matplotlib | Seaborn"]
-  },
-  {
-    title: "Cloud Computing & Data Engineering",
-    content: ["Git/GitHub", "Docker", "Amazon Web Services (AWS) | Microsoft Azure"]
+    content: ["SpaCy | NLTK", " Pytesseract | OpenCV", "scikit-learn | Keras", "Matplotlib | Seaborn | Plotly", "Flask | Django"]
   },
   {
     title: "Database Management Systems",
     content: ["PostgreSQL", "MySQL", "MongoDB"]
   },
   {
-    title: "Programming Languages",
-    content: ["Python", "R", "MATLAB", "Golang", "C/C++", "HTML/CSS", "JavaScript"]
+    title: "Cloud Computing & Data Engineering",
+    content: ["Amazon Web Services (AWS) | Microsoft Azure", "Databricks", "Snowflake", "Apache Spark/PySpark", "Kafka", "Git/GitHub | Docker"]
   },
   {
-    title: "Operating Systems",
-    content: ["UNIX", "Windows"]
-  },
+    title: "Programming Languages",
+    content: ["Python | R | MATLAB", "Go | C/C++", "HTML/CSS | JavaScript"]
+  }
+
 ];
 
 export { skills };

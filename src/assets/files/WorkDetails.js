@@ -11,14 +11,14 @@ const work = [
         time: "June 2024 - August 2024",
         location: "Naperville, IL, USA",
         role: "Data Science Graduate Intern",
-        summary: "I worked on a project to improve an AI model designed to detect anomalies in cooling towers by building a comprehensive validation dataset. I combined real-world data with a synthetic data generation algorithm that mimicked sensor readings, allowing for controlled testing of the model. Additionally, I performed feature engineering, including frequency analysis (FFT) on sensor data and relay behavior analysis, to develop independent features that indicate the health of the cooling towers. This work improved the model's accuracy in identifying potential issues, ultimately supporting proactive maintenance in factories, plants, and refineries."
+        summary: "I validated AI models for cooling tower monitoring systems by analyzing time series data from sensors measuring parameters like temperature and pH. I studied normal and anomalous data to evaluate model predictions and explored predictive techniques like ARIMAs and k-shape clustering. I built a validation dataset with known anomalies and developed an algorithm to generate synthetic sensor data, allowing users to customize anomaly duration, frequency, and length. This tool enabled extensive testing of various models."
     },
     {
         name: "ReWorked.ai",
         time: "April 2024 - May 2024",  
         location: "College Park, MD, USA",
         role: "Machine Learning Engineer",
-        summary: "I developed an algorithm to predict the likelihood of a person installing solar panels at their residence. To build this, I studied various factors that influence such decisions and consulted with industry experts for deeper insights. I conducted extensive exploratory data analysis to understand how these factors impact the final decision. By leveraging Bayesian inference and machine learning techniques, I created a score generation algorithm that provides insights into a person's likelihood of installing solar panels. Additionally, I built a rules-based score generation engine based on the expertise of industry professionals."
+        summary: "I tackled the challenge of predicting whether residents would install solar panels by analyzing a dataset with demographic and structural variables. I conducted exploratory data analysis to understand how features like age, income, roof area, and sunlight exposure influenced the decision. I then divided the problem into two parts: using a Bayesian decision model for demographic features and a random forest classifier for structural features. I combined the outputs of these models to estimate the likelihood of solar panel installation. This approach enabled the company to target marketing efforts more effectively, saving time and resources."
     },
     {
         name: "Latlong (ONZE Technologies Pvt. Ltd.)",
@@ -32,7 +32,7 @@ const work = [
         time: "January 2022 - July 2022",
         location: "Bangalore, KA, India",
         role: "Software Engineering Intern",
-        summary: "I developed OCR APIs using Tesseract to efficiently extract, process, and store data from public documents. Additionally, I created a clustering algorithm to pinpoint regions in India with high purchasing power by analyzing geo-spatial data. Using Python and QGIS for data visualization, I provided clients with valuable insights to improve their marketing strategies."
+        summary: "I developed an OCR data extraction tool using OpenCV and Pytesseract to extract demographic data from both English and non-English documents through fuzzy string matching. After processing and handling missing data, I structured it into a database for future use. Using this data along with geo-spatial information, I created a visualization tool with Python and QGIS. This tool helped a non-banking financial company analyze loan approval rates, identify poorly performing regions, and uncover market opportunities to increase profitability. Similarly, an automobile company used the tool to pinpoint areas where they lacked market share, understand competitive dynamics, and enhance their operations and profit."
     },
     {
         name: "MTRDC, Defence Research and Development Organization",

@@ -1,44 +1,67 @@
-* { 
-    font-size: 0.79rem;
-  }
-
 body {
-    margin: 1rem;
-    padding: 1rem;
-    font-family: 'Libre Baskerville', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-family: 'Domine', serif;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0.65rem;
+    margin-left: 0.65rem;
 }
 
-ul {
-    margin-top: 0.8rem;
-    list-style: none;
-}
-
-p {
-    margin: 0.1rem;
-}
-
-div ul {
-    list-style-type: disc;
-}
-
-
-.image {
-    max-width: 1rem;
-    max-height: 1rem;
-    margin: 0.2rem;
-}
-
-.headings {
-    text-align: left;
-    font-weight: bold;
-    vertical-align: top;
-}
-
-.subheadings{
+span {
+    float: right;
     font-style: italic;
-    
 }
 
+header {
+    align-items: center;
+    justify-content: center;
+    display: flex;  
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: larger;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0.2rem;
+}
+
+.heading hr {
+    border: 0;
+    border-top: 0.01rem solid black;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    width: 100%;
+}
+
+.technical-skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.education ul,
+.work-experience ul,
+.projects ul     {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.1rem;
+}
+
+.description ul{
+    list-style-type: disc;
+    padding: 0;
+    margin-left: 1rem;
+}
+
+.card {
+    padding: 0;
+    margin: 0;
+}
 
 @media print {
     #printPageButton{

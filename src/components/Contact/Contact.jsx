@@ -6,7 +6,7 @@ const Contact = () => {
     const [copied, setCopied] = useState(false);
 
     const copyEmail = () => {
-        const email = "chandur.nischal@gmail.com";
+        const email = "chandur.nischal2@gmail.com";
 
         navigator.clipboard.writeText(email).then(() => {
             setCopied(true);

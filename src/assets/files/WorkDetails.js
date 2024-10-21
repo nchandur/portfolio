@@ -24,7 +24,7 @@ const work = [
         name: `Latlong (ONZE Technologies Pvt. Ltd.)`,
         time: `September 2022 - June 2023`,
         location: `Bangalore, KA, India`,
-        role: `Data Engineer`,
+        role: `Data Scientist`,
         summary: `I developed an advanced OCR data extraction tool using OpenCV, Pytesseract, and fuzzy string matching to extract, process demographic data from both English and non-English documents and organize it in a structured database for seamless future access. I built a geo-spatial visualization tool using Python and QGIS, empowering a non-banking financial company to pinpoint underperforming areas and uncover new market opportunities, ultimately enhancing loan approval rates and profitability. By applying this visualization tool to market analysis for an automobile company, I identified regions with significant competitor market share, delivering critical insights that boosted operational efficiency and profitability.`
     },
     {

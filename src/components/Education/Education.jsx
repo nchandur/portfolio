@@ -48,7 +48,7 @@ const Education = () => {
                         <h2>PES University</h2>
                         <span className="degree-date">August 2018 - May 2022</span>
                     </div>
-                    <h5>Bangalore, KA, India</h5>
+                    <h5>Bengaluru, KA, India</h5>
                     <p>Bachelor of Technology in Electronics and Communication Engineering</p>
                     <div className="coursework">
                         <div className="button-light-container" onClick={toggleBachelorsCoursework}>

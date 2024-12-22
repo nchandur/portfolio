@@ -24,10 +24,10 @@ const projectList = [
         link: `https://github.com/chandurnischal/sign-language`
     },
     {
-        title: `NBA Prediction Model`,
+        title: `NBA Prediction & Analysis Model`,
         subtitle: `Predicting the Court: AI-Driven Insights into NBA Game Outcomes and Player Stats`,
         time: `August 2023 - December 2023`,
-        summary: `Unlock the future of NBA game predictions with this powerful machine learning model, built on data from 1980 to 2024. Users can explore daily matchups, dive into team and player stats, and get AI-powered insights on game outcomes. Whether you're making predictions or simply exploring the stats, this tool brings a whole new level of engagement to basketball.`,
+        summary: `Step into the world of data-driven basketball predictions with this advanced machine learning model, powered by data from 1980 to 2024. Users can explore daily matchups, dive into team and player stats, and get AI-powered insights on game outcomes. Whether you're making predictions or simply exploring the stats, this tool brings a whole new level of engagement to basketball.`,
         image: `images/nba-prediction-model.webp`,
         link: `https://github.com/chandurnischal/NBA-prediction-model`
     },

@@ -4,43 +4,36 @@ const work = [
         time: `August 2024 - Present`,
         location: `College Park, MD, USA`,
         role: `Teaching Assistant`,
-        summary: ``,
+        summary: `Assisted professors in courses such as Principles of Data Science, Principles of Machine Learning, and Algorithms of Data Science. Led discussions, mentored students, and evaluated coding assignments, reports, and research papers. This role honed my ability to communicate complex AI and data science concepts clearly while fostering an engaging learning environment for students.`,
     },
     {
         name: `Ecolab Inc.`,
         time: `June 2024 - August 2024`,
         location: `Naperville, IL, USA`,
         role: `Data Science Graduate Intern`,
-        summary: ``
+        summary: `Transformed model validation by building a comprehensive validation dataset from past model results and action logs to improve accuracy in monitoring sensor data for cooling towers. Additionally, I developed a synthetic sensor reading generator algorithm that streamlined the validation process, making it more efficient and robust—directly enhancing the performance of deployed machine learning models.`
     },
     {
         name: `ReWorked.ai`,
         time: `April 2024 - May 2024`,  
         location: `Miami, FL, USA`,
         role: `Machine Learning Engineer`,
-        summary: ``
+        summary: `Designed a cutting-edge ML model combining classical Bayesian statistics and advanced ensemble learning to predict the likelihood of individuals purchasing solar panels. This innovative model successfully identified new leads in previously untapped regions of the U.S., driving business growth and expanding market reach. `
     },
     {
         name: `Latlong (ONZE Technologies Pvt. Ltd.)`,
         time: `September 2022 - June 2023`,
-        location: `Bangalore, KA, India`,
+        location: `Bengaluru, KA, India`,
         role: `Data Scientist`,
-        summary: ``
+        summary: `Engineered a powerful data extraction tool to process demographic data from multilingual public documents, seamlessly integrating it with geo-spatial data for in-depth regional analysis. Additionally, developed a visualization tool that empowered companies to identify underperforming areas and competitor-dominated regions, driving operational efficiency and profitability in sectors like finance and automotive.`
     },
-    {
-        name: `Latlong (ONZE Technologies Pvt. Ltd.)`,
-        time: `January 2022 - July 2022`,
-        location: `Bangalore, KA, India`,
-        role: `Software Engineering Intern`,
-        summary: ``
-    },
-    {
-        name: `MTRDC, Defence Research and Development Organization`,
-        time: `August 2021 - December 2021`,
-        location: `Bangalore, KA, India`,
-        role: `Research Intern`,
-        summary: `.`
-    },
+    // {
+    //     name: `Latlong (ONZE Technologies Pvt. Ltd.)`,
+    //     time: `January 2022 - July 2022`,
+    //     location: `Bengaluru, KA, India`,
+    //     role: `Software Engineering Intern`,
+    //     summary: ``
+    // },
 ];
 
 

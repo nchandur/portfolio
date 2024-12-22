@@ -107,10 +107,17 @@ html {
 }
 
 .project-card h3 {
-    font-weight: 600;
+    font-weight: 500;
+    font-size: x-large;
 }
 
 .project-card p {
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.project-card h4{
+    color: #848884;
+    font-style: italic;
+    font-size: medium;
 }

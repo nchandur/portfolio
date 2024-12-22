@@ -4,7 +4,7 @@ const projectList = [
         subtitle: `Unveiling Middle-earth: An AI-Powered Gateway to Tolkien's World`,
         time: `August 2024 - December 2024`,
         summary: `Explore Middle-earth with Lorekeeper, a locally running RAG model built on Tolkien's The Lord of the Rings and The Hobbit. With an intuitive front-end, it lets users dive into characters, events, and lore through AI-driven insights, merging technology with storytelling.`,
-        image: `public/images/lorekeeper.jpg`,
+        image: `images/lorekeeper.jpg`,
         link: `https://github.com/chandurnischal/lorekeeper`
     },
     {

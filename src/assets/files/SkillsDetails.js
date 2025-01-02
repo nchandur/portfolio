@@ -1,28 +1,24 @@
 const skills = [
   {
-    title: "Data Science & Machine Learning",
-    content: ["scikit-learn | Tensorflow | Keras", "Statsmodels | SciPy | NumPy", "SpaCy | NLTK", "Pytesseract | OpenCV", "Plotly | Matplotlib/Seaborn"]
+    title: "Machine Learning & Artificial Intelligence",
+    content: ["Scikit-learn", "TensorFlow | Keras", "PyTorch", "HuggingFace", "OpenCV", "Langchain", "SpaCy | NLTK"],
   },
   {
     title: "Programming Languages",
-    content: ["Python | R | MATLAB", "Go | C/C++", "HTML/CSS", "JavaScript"]
+    content: ["Python", "R", "MATLAB", "C/C++", "Go", "JavaScript", "HTML/CSS"],
   },
   {
     title: "Databases & Big Data",
-    content: ["PostgreSQL | MySQL | MongoDB", "Snowflake | Kafka"]
+    content: ["PostgreSQL", "MySQL", "MongoDB", "Snowflake", "Apache Kafka"],
   },
   {
     title: "Cloud Computing & Dev Ops",
-    content: ["Amazon Web Services (AWS) | Microsoft Azure", "Databricks | Apache Spark", "Docker | Git/GitHub"]
+    content: ["Amazon Web Services (AWS)", "Microsoft Azure", "Databricks", "Docker", "Git/GitHub"]
   },
   {
-    title: "Data Visualization & Business Intelligence",
-    content: ["PowerBI", "Tableau", "Microsoft Office Suite", "QGIS"]
-  },
-  {
-    title: "Web Development",
-    content: ["React.js", "Flask | Django", "Gin | Fiber", "ngrok"]
-  },
+    title: "Other Tools",
+    content: ["PyTesseract", "FAISS", "Streamlit", "Flask", "Gin | Fiber"]
+  }
 ];
 
 export { skills };

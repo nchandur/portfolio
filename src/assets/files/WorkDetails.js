@@ -4,7 +4,7 @@ const work = [
         time: `August 2024 - Present`,
         location: `College Park, MD, USA`,
         role: `Teaching Assistant`,
-        summary: `Assisted professors in courses such as Principles of Data Science, Principles of Machine Learning, and Algorithms of Data Science. Led discussions, mentored students, and evaluated coding assignments, reports, and research papers. This role honed my ability to communicate complex AI and data science concepts clearly while fostering an engaging learning environment for students.`,
+        summary: `Assisted professors in the courses Principles of Data Science, Principles of Machine Learning, and Algorithms of Data Science. Led discussions, mentored students, and evaluated coding assignments, reports, and research papers. I learnt to communicate complex AI and data science concepts clearly while fostering an engaging learning environment for students.`,
         image: `images/umd.jpeg`
     },
     {

@@ -4,6 +4,10 @@ const skills = [
     content: ["Scikit-learn", "TensorFlow | Keras", "PyTorch", "HuggingFace", "OpenCV", "Langchain", "SpaCy | NLTK"],
   },
   {
+    title: "Statistics & Mathematical Modeling",
+    content: ["Bayesian Inference", "Causal Inference", "Hypothesis Testing", "Simulation Testing"]
+  },
+  {
     title: "Programming Languages",
     content: ["Python", "R", "MATLAB", "C/C++", "Go", "JavaScript", "HTML/CSS"],
   },

@@ -88,6 +88,8 @@ html {
 }
 
 .work-image {
+    width: 12%;
+    height: 12%;
     margin-right: 2rem;
     border-radius: 2rem;
     object-fit: cover;

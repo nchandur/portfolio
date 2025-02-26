@@ -16,6 +16,15 @@
     animation: TitleSlideUp 2s ease-out forwards;
 }
 
+.education-card-row {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
 .degree {
     position: relative;
     flex: 1 1 45%;
@@ -26,6 +35,19 @@
     background-color: #f9f9f9;
     box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
+
+.degree-img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 2.5rem;
+    border-radius: 40%;
+    object-fit: cover;
 }
 
 .degree h2 {
@@ -42,20 +64,16 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    width: 100%;
+}
+
+.coursework {
+    width: 100%;
 }
 
 .coursework-item {
     padding: 1rem;
     border: 1px solid #dee2e6;
-}
-
-.education-card-row {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: space-between;
-    width: 100%;
-    flex-wrap: wrap;
 }
 
 .button-light-container {
@@ -68,7 +86,6 @@
         transform: translateY(5%);
         opacity: 0;
     }
-
     to {
         transform: translateY(0%);
         opacity: 1;
@@ -80,7 +97,6 @@
         transform: translateX(5%);
         opacity: 0;
     }
-
     to {
         transform: translateX(0%);
         opacity: 1;
@@ -92,7 +108,6 @@
         transform: translateX(-5%);
         opacity: 0;
     }
-
     to {
         transform: translateX(0%);
         opacity: 1;

@@ -21,6 +21,7 @@ const Education = () => {
 
             <div className="education-card-row">
                 <div id="masters" className="degree">
+                    <img src="images/umd.jpeg" alt="University of Maryland" className="degree-img" />
                     <div className="degree-header">
                         <h2>University of Maryland</h2>
                         <span className="degree-date">August 2023 - Present</span>
@@ -36,7 +37,7 @@ const Education = () => {
                                 <ListGroup.Item className="coursework-item">Natural Language Processing</ListGroup.Item>
                                 <ListGroup.Item className="coursework-item">Computer Vision</ListGroup.Item>
                                 <ListGroup.Item className="coursework-item">Data Representation and Modeling</ListGroup.Item>
-                                <ListGroup.Item className="coursework-item">Communication in Data Science & Analytics</ListGroup.Item>
+                                <ListGroup.Item className="coursework-item">Big Data Systems</ListGroup.Item>
                                 <ListGroup.Item className="coursework-item">Algorithms of Data Science</ListGroup.Item>
                             </ListGroup>
                         )}
@@ -44,6 +45,7 @@ const Education = () => {
                 </div>
 
                 <div id="bachelors" className="degree">
+                    <img src="images/pes.jpeg" alt="PES University" className="degree-img" />
                     <div className="degree-header">
                         <h2>PES University</h2>
                         <span className="degree-date">August 2018 - May 2022</span>

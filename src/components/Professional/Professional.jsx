@@ -52,14 +52,19 @@ const Professional = () => {
                     className={`work-card ${index % 2 === 0 ? 'even-card' : 'odd-card'}`}
                     ref={(el) => (workRefs.current[index] = el)}
                 >
-                    <div className="work-header">
-                        <h3>{item.name}</h3>
-                        <span>{item.time}</span>
-                    </div>
-                    <div>
-                        <h4>{item.location}</h4>
-                        <h5>{item.role}</h5>
-                        <p>{item.summary}</p>
+                    <div className="work-card-content">
+                        <img src={item.image} alt={item.name} className="work-image" />
+                        <div className="work-details">
+                            <div className="work-header">
+                                <h3>{item.name}</h3>
+                                <span>{item.time}</span>
+                            </div>
+                            <div>
+                                <h4>{item.location}</h4>
+                                <h5>{item.role}</h5>
+                                <p>{item.summary}</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             ))}
@@ -71,4 +76,3 @@ const Professional = () => {
 };
 
 export default Professional;
-

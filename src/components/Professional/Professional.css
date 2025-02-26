@@ -38,7 +38,6 @@ html {
     height: 100%;
 }
 
-
 .slide-in-left {
     animation: WorkSlideLeft 1s forwards;
 }
@@ -59,7 +58,6 @@ html {
     width: 100%;
     height: auto;
     padding: 3% 5% 10% 5%;
-
 }
 
 .professional h1 {
@@ -82,6 +80,21 @@ html {
     background-color: #f9f9f9;
     transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.5s ease-in-out;
     opacity: 0;
+}
+
+.work-card-content {
+    display: flex;
+    align-items: center;
+}
+
+.work-image {
+    margin-right: 2rem;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+.work-details {
+    flex-grow: 1;
 }
 
 .work-card h4 {

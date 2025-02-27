@@ -1,7 +1,7 @@
 const skills = [
   {
     title: "Machine Learning & Artificial Intelligence",
-    content: ["Scikit-learn", "TensorFlow | Keras", "PyTorch", "HuggingFace", "OpenCV", "Langchain", "SpaCy | NLTK"],
+    content: ["TensorFlow", "Keras", "Scikit-learn", "PyTorch", "HuggingFace", "OpenCV", "LangChain", "SpaCy", "NLTK"],
   },
   {
     title: "Statistics & Mathematical Modeling",
@@ -9,11 +9,11 @@ const skills = [
   },
   {
     title: "Programming Languages",
-    content: ["Python", "R", "MATLAB", "C/C++", "Go", "JavaScript", "HTML/CSS"],
+    content: ["Python", "R", "MATLAB", "C/C++", "Go", "Node.js"],
   },
   {
     title: "Databases & Big Data",
-    content: ["PostgreSQL", "MySQL", "MongoDB", "Snowflake", "Apache Kafka"],
+    content: ["PostgreSQL", "MySQL", "MongoDB", "FAISS", "ChromaDB", "Pinecone", "Snowflake", "Apache Spark"],
   },
   {
     title: "Cloud Computing & Dev Ops",
@@ -21,7 +21,7 @@ const skills = [
   },
   {
     title: "Other Tools",
-    content: ["PyTesseract", "FAISS", "Streamlit", "Flask", "Gin | Fiber"]
+    content: ["PyTesseract", "Streamlit", "Flask", "Gin", "Fiber"]
   }
 ];
 

@@ -15,7 +15,6 @@ const Footer = () => {
                     <a rel="noreferrer" href="https://linkedin.com/in/nischal-chandur" target="_blank">
                         <i className="fa fa-linkedin fa-inverse"></i>
                     </a>
-            {/* throwaway comment */}
                     <a rel="noreferrer" href="https://github.com/nchandur" target="_blank">
                         <i className="fa fa-github fa-inverse"></i>
                     </a>

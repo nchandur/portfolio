@@ -4,7 +4,7 @@ const skills = [
     content: ["TensorFlow", "Keras", "Scikit-learn", "PyTorch", "HuggingFace", "OpenCV", "LangChain", "SpaCy", "NLTK"],
   },
   {
-    title: "Statistics & Mathematical Modeling",
+    title: "Probability & Statistics",
     content: ["Bayesian Inference", "Causal Inference", "Hypothesis Testing", "Simulation Testing"]
   },
   {
@@ -21,7 +21,7 @@ const skills = [
   },
   {
     title: "Other Tools",
-    content: ["PyTesseract", "Streamlit", "Flask", "Gin", "Fiber"]
+    content: ["PyTesseract", "Streamlit", "Flask", "Gin", "Fiber", "React.js"]
   }
 ];
 

@@ -5,7 +5,7 @@ const skills = [
   },
   {
     title: "Probability & Statistics",
-    content: ["Bayesian Inference", "Causal Inference", "Hypothesis Testing", "Simulation Testing"]
+    content: ["Bayesian Inference", "Causal Inference", "Hypothesis Testing", "Monte Carlo Methods"]
   },
   {
     title: "Programming Languages",
@@ -13,15 +13,15 @@ const skills = [
   },
   {
     title: "Databases & Big Data",
-    content: ["PostgreSQL", "MySQL", "MongoDB", "FAISS", "ChromaDB", "Pinecone", "Snowflake", "Apache Spark"],
+    content: ["PostgreSQL", "MongoDB", "Redis", "FAISS", "ChromaDB", "Neo4j", "Spark"],
   },
   {
     title: "Cloud Computing & Dev Ops",
     content: ["Amazon Web Services (AWS)", "Microsoft Azure", "Databricks", "Docker", "Git/GitHub"]
   },
   {
-    title: "Other Tools",
-    content: ["PyTesseract", "Streamlit", "Flask", "Gin", "Fiber", "React.js"]
+    title: "Web Frameworks and Libraries",
+    content: ["Streamlit", "Flask", "Django", "Gin", "Fiber", "React.js"]
   }
 ];
 

@@ -20,7 +20,7 @@ const About = () => {
                         When I'm not knee-deep in data, you'll find me immersed in the challenging world of Dark Souls or absorbed in a captivating novel. I'm also an avid runner, always exploring new trails. Whether it's crunching numbers, slaying bosses, or hitting the paths, I thrive on exciting adventures.``
                         Feel free to explore my projects and get in touch!
                     </p>
-                    <a href="Nischal Chandur.pdf" target="_blank">
+                    <a href="Resume.pdf" target="_blank">
                         <ButtonDark text="View Resume" />
                     </a>
                 </div>

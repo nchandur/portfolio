@@ -21,7 +21,7 @@ const About = () => {
 
                         Feel free to explore my projects and get in touch!
                     </p>
-                    <a href="Resume.pdf" target="_blank">
+                    <a href="Nischal Chandur.pdf" target="_blank">
                         <ButtonDark text="View Resume" />
                     </a>
                 </div>

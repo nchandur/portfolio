@@ -8,7 +8,7 @@ const Navigation = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#home"><img src="images/logo.webp" alt="Logo" className="navbar-logo" /></Navbar.Brand>
+        <Navbar.Brand href="#home"><img src="images/logo.png" alt="Logo" className="navbar-logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll" className='navigation-contents'>
           <Nav

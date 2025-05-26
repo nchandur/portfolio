@@ -14,11 +14,13 @@ const About = () => {
                 </div>
                 <div className="about-right">
                     <p>
-                        I'm a second-year graduate student diving into the world of Data Science at the University of Maryland, College Park. I'm passionate about making sense of numbers and building innovative tools that make data more accessible and meaningful. My focus is on bridging the gap between complex AI systems and everyday users, ensuring that data is used ethically and insights are clear and actionable.
-                        <br></br>
-                        <br></br>
-                        When I'm not knee-deep in data, you'll find me immersed in the challenging world of Dark Souls or absorbed in a captivating novel. I'm also an avid runner, always exploring new trails. Whether it's crunching numbers, slaying bosses, or hitting the paths, I thrive on exciting adventures.
-                        Feel free to explore my projects and get in touch!
+
+                        I'm a recent graduate from the University of Maryland, College Park, where I earned my Master's in Data Science. I've always gravitated toward the overlap between math and computer science, and data science felt like the natural place where both could come to life. For me, there's something incredibly satisfying about finding patterns in chaos: breaking down complex problems, building systems that work, and seeing messy data turn into something clear and useful. <br></br><br></br>
+
+                        Over the past few years, I've worked with teams across industries, tackling projects in everything from renewable energy to finance. I enjoy the challenge of working with real-world data. It's rarely perfect, often unpredictable, and always full of surprises. What keeps me going is the idea that, with the right tools and enough curiosity, even the noisiest data has a story to tell. <br></br><br></br>
+                        
+                        Outside of work, I'm usually somewhere between a long trail run, a tough Dark Souls boss fight, or a book I can't put down. I like a good challenge, whether it's in code, games, or life. Feel free to explore my projects and reach out if you'd like to connect.
+
                     </p>
                     <a href="Resume.pdf" target="_blank">
                         <ButtonDark text="View Resume" />

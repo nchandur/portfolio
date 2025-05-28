@@ -24,7 +24,7 @@ const Education = () => {
                     <img src="images/umd.jpeg" alt="University of Maryland" className="degree-img" />
                     <div className="degree-header">
                         <h2>University of Maryland</h2>
-                        <span className="degree-date">August 2023 - Present</span>
+                        <span className="degree-date">August 2023 - May 2025</span>
                     </div>
                     <h5>College Park, MD, United States of America</h5>
                     <p>Master of Science in Data Science</p>

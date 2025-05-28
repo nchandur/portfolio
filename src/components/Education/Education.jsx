@@ -24,7 +24,7 @@ const Education = () => {
                     <img src="images/umd.jpeg" alt="University of Maryland" className="degree-img" />
                     <div className="degree-header">
                         <h2>University of Maryland</h2>
-                        <span className="degree-date">August 2023 - May 2025</span>
+                        <span className="degree-date">Aug 2023 - May 2025</span>
                     </div>
                     <h5>College Park, MD, United States of America</h5>
                     <p>Master of Science in Data Science</p>
@@ -48,7 +48,7 @@ const Education = () => {
                     <img src="images/pes.jpeg" alt="PES University" className="degree-img" />
                     <div className="degree-header">
                         <h2>PES University</h2>
-                        <span className="degree-date">August 2018 - May 2022</span>
+                        <span className="degree-date">Aug 2018 - May 2022</span>
                     </div>
                     <h5>Bengaluru, KA, India</h5>
                     <p>Bachelor of Technology in Electronics and Communication Engineering</p>

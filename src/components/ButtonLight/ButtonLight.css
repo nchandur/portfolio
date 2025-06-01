@@ -46,3 +46,11 @@ html {
     transition: color 0.4s 0.08s;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .button-light {
+        padding: 0.3rem 0.8rem;
+        font-size: 0.8rem;
+    }
+}
+

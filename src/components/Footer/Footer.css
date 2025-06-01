@@ -61,3 +61,21 @@ a {
     text-decoration: none;
     color: white;
 }
+
+@media (max-width: 768px) {
+
+    .footer p{
+        font-size:0.5rem;
+    }
+        
+    .social-links a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        font-size: 2rem;
+        margin-inline: 2rem;
+        transition: all 0.2s ease-in;
+    }
+    
+}

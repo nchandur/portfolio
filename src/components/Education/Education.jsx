@@ -26,7 +26,7 @@ const Education = () => {
                         <h2>University of Maryland</h2>
                         <span className="degree-date">Aug 2023 - May 2025</span>
                     </div>
-                    <h5>College Park, MD, United States of America</h5>
+                    <h5>College Park, MD, United States</h5>
                     <p>Master of Science in Data Science</p>
                     <div className="coursework">
                         <div className="button-light-container" onClick={toggleMastersCoursework}>

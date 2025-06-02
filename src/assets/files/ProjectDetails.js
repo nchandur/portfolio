@@ -1,5 +1,13 @@
 const projectList = [
     {
+        title: `Infinity Ledger`,
+        subtitle: `Smart Settlements: A Go-Powered Ledger That Simplifies Debt Transactions`,
+        time: `Jan 2025 - May 2025`,
+        summary: `Infinity Ledger is a backend-only debt management tool built with Go and MongoDB that simplifies group expense tracking and intelligently minimizes the number of transactions needed to settle debts. From ledger entries to optimized paybacks, it ensures fair and efficient financial collaboration.`,
+        image: `images/ledger.jpg`,
+        link: `https://github.com/nchandur/ledger`
+    },    
+    {
         title: `Lorekeeper`,
         subtitle: `Unveiling Middle-earth: An AI-Powered Gateway to Tolkien's World`,
         time: `Aug 2024 - Dec 2024`,

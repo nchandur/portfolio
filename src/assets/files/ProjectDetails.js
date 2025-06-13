@@ -16,14 +16,6 @@ const projectList = [
         link: `https://github.com/nchandur/lorekeeper`
     },
     {
-        title: `Dimension Reduction Analysis`,
-        subtitle: `Simplifying Complexity:  Exploring Efficient Data Representations with the Fruit-360 Dataset`,
-        time: `Apr 2024 - May 2024`,
-        summary: `Discover the art of simplifying complex data with this exploration of dimension reduction techniques. Using the Fruit-360 dataset, this project evaluates various data representation methods, analyzing their efficiency and suitability for different applications.`,
-        image: `images/fruit-classification.png`,
-        link: `https://github.com/nchandur/fruit-classification`
-    },
-    {
         title: `Sign Language Recognition and Translation`,
         subtitle: `Bridging Communication Gaps: CNN-Powered Translation for Sign Languages`,
         time: `Mar 2024 - May 2024`,

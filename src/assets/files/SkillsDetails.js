@@ -13,7 +13,7 @@ const skills = [
   },
   {
     title: "Databases & Big Data",
-    content: ["PostgreSQL", "MongoDB", "Redis", "FAISS", "ChromaDB", "Neo4j", "Spark"],
+    content: ["PostgreSQL", "MongoDB", "Redis", "Qdrant", "ChromaDB", "Neo4j", "Spark"],
   },
   {
     title: "Cloud Computing & Dev Ops",

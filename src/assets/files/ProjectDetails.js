@@ -1,5 +1,13 @@
 const projectList = [
     {
+        title: `GoReads!`,
+        subtitle: `Literary Compass: A Go-Powered Engine Unlocking Your Next Great Read`,
+        time: `May 2025 - July 2025`,
+        summary: `Dive into a world of personalized discovery with this Go-based Book Recommendation System. Powered with MongoDB and Qdrant VectorDB, it processes complex book data to deliver highly relevant suggestions, helping users uncover new reads with precision and ease.`,
+        image: `images/goreads.jpg`,
+        link: `https://github.com/nchandur/go-reads`
+    },    
+    {
         title: `Infinity Ledger`,
         subtitle: `Smart Settlements: A Go-Powered Ledger That Simplifies Debt Transactions`,
         time: `Jan 2025 - May 2025`,

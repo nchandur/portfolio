@@ -2,6 +2,7 @@ import { Theme } from "@/components/Theme";
 import { StarBackground } from "@/components/StarBackground";
 import { Navigation } from "@/components/Navigation";
 import { Home } from "@/components/Home";
+import { About } from "@/components/About";
 
 function App() {
 
@@ -17,8 +18,9 @@ function App() {
         <Navigation />
 
         <main>
-          
+
           <Home />
+          <About />
 
         </main>
 

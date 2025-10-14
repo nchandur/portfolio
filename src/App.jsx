@@ -1,6 +1,7 @@
 import { Theme } from "@/components/Theme";
 import { StarBackground } from "@/components/StarBackground";
 import { Navigation } from "@/components/Navigation";
+import { Home } from "@/components/Home";
 
 function App() {
 
@@ -14,6 +15,12 @@ function App() {
         <StarBackground />
 
         <Navigation />
+
+        <main>
+          
+          <Home />
+
+        </main>
 
       </div>;
 

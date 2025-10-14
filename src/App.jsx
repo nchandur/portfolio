@@ -1,5 +1,6 @@
-import { Theme } from "./components/Theme";
-import { StarBackground } from "./components/StarBackground";
+import { Theme } from "@/components/Theme";
+import { StarBackground } from "@/components/StarBackground";
+import { Navigation } from "@/components/Navigation";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
 
         <StarBackground />
 
+        <Navigation />
 
       </div>;
 

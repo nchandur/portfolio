@@ -25,6 +25,16 @@ const projects = [
     tags: ["Python", "LangChain", "Ollama", "Docker"],
     githubUrl: "https://github.com/nchandur/lorekeeper",
   },
+  {
+    id: 4,
+    title: "NBA Prediction Model",
+    description:
+      "ML-Based Game Predictor for the NBA",
+    image: "images/nba.jpg",
+    tags: ["Python", "MySQL", "Flask", "HTML/CSS"],
+    githubUrl: "https://github.com/nchandur/lorekeeper",
+  },
+
 ];
 
 export { projects };

@@ -1,5 +1,3 @@
-import { ArrowDown } from "lucide-react";
-
 export const Home = () => {
   return (
     <section

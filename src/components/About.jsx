@@ -11,7 +11,7 @@ export const About = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div>
-                        <img src="images/pfp.jpg" className="shadow-xl dark:shadow-gray-1000"/>
+                        <img src="images/pfp.jpg" className="rounded-4xl shadow-xl dark:shadow-gray-1000"/>
 
                     </div>
 
@@ -32,7 +32,7 @@ export const About = () => {
                                 target="_blank"
                                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                             >
-                                Download Resume
+                                View Resume
                             </a>
                         </div>
                     </div>

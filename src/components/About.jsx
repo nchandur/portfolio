@@ -18,11 +18,11 @@ export const About = () => {
                     <div className="space-y-6">
 
                         <p className="text-muted-foreground">
-                            I'm a Cloud Engineer who loves turning cutting-edge technologies into practical, cool applications. My passion for math and computer science drives me, and I'm always looking to learn more about both fields. I thrive on a good challenge, and that's true whether I'm tackling a complex problem in code or digging deep into a theoretical concept.
+                            I'm a Cloud Engineer who loves building cool, practical applications using the latest technologies. I'm endlessly curious about how things work, and my passion for mathematics and computer science keeps me learning something new every day.
                         </p>
 
                         <p className="text-muted-foreground">
-                            When I'm not working, you can probably find me out on a long trail run, immersed in a book I can't put down, or maybe locked in a Dark Souls boss fight. I enjoy pushing my limits in all aspects of life; from development and gaming to the great outdoors.
+                            When I'm not building or studying, you'll catch me out on a trail, flipping through a good book, or playing video games to unwind.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">

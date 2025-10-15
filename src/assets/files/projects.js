@@ -12,7 +12,7 @@ const projects = [
     title: "Infinity Ledger",
     description:
       "Debt Management and Expense Tracking Tool",
-    image: "/images/ledger.jpg",
+    image: "images/ledger.jpg",
     tags: ["Go", "MongoDB"],
     githubUrl: "https://github.com/nchandur/ledger",
   },

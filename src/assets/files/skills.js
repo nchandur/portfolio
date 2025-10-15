@@ -23,7 +23,7 @@ const skills = [
   // cloud
   {name: "Amazon Web Services", category: "cloud"},
   {name: "Microsoft Azure", category: "cloud"},
-  {name: "Kubernetes", catagory: "cloud"},
+  {name: "Kubernetes", category: "cloud"},
   {name: "Docker", category: "cloud"},
   {name: "Git", category: "cloud"},
 

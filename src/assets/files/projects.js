@@ -3,36 +3,33 @@ const projects = [
     id: 1,
     title: "GoReads!",
     description: "Content-Based Book Recommendation System",
-    image: "images/goreads.jpg",
+    image: "portfolio/images/goreads.jpg",
     tags: ["Go", "QdrantDB", "MongoDB", "Docker"],
-    githubUrl: "https://github.com/nchandur/go-reads",
+    url: "https://github.com/nchandur/go-reads",
   },
   {
     id: 2,
     title: "Infinity Ledger",
-    description:
-      "Debt Management and Expense Tracking Tool",
-    image: "images/ledger.jpg",
+    description: "Debt Management and Expense Tracking Tool",
+    image: "portfolio/images/ledger.jpg",
     tags: ["Go", "MongoDB"],
-    githubUrl: "https://github.com/nchandur/ledger",
+    url: "https://github.com/nchandur/ledger",
   },
   {
     id: 3,
     title: "Lorekeeper",
-    description:
-      "RAG-based specialist on the Lord of the Rings literature",
-    image: "images/lorekeeper.jpg",
+    description: "RAG-based specialist on the Lord of the Rings literature",
+    image: "portfolio/images/lorekeeper.jpg",
     tags: ["Python", "LangChain", "Ollama", "Docker"],
-    githubUrl: "https://github.com/nchandur/lorekeeper",
+    url: "https://github.com/nchandur/lorekeeper",
   },
   {
     id: 4,
     title: "NBA Prediction Model",
-    description:
-      "ML-Based Game Predictor for the NBA",
-    image: "images/nba.jpg",
+    description: "ML-Based Game Predictor for the NBA",
+    image: "portfolio/images/nba.jpg",
     tags: ["Python", "MySQL", "Flask", "HTML/CSS"],
-    githubUrl: "https://github.com/nchandur/lorekeeper",
+    url: "https://github.com/nchandur/lorekeeper",
   },
 
 ];

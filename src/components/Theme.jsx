@@ -3,7 +3,7 @@ import { Sun, Moon } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export const Theme = () => {
-    const [isDark, setIsDark] = useState(false);
+    const [isDark, setIsDark] = useState(true);
 
     useEffect(() => {
         const storedTheme = localStorage.getItem("theme");
@@ -35,7 +35,7 @@ export const Theme = () => {
 
     return <button
         onClick={toggleTheme}
-        className={cn("fixed max-sm:hidden top-2 right-5 z-50 p-2 rounded-full transition-colors duration-300",
+        className={cn("fixed max-sm:hidden top-12 right-5 z-50 p-2 rounded-full transition-colors duration-300",
             "focus:outline-hidden"
         )}
     >

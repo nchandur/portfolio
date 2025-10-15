@@ -1,34 +1,43 @@
-import React from "react";
+import { Theme } from "@/components/Theme";
+import { StarBackground } from "@/components/StarBackground";
+import { Navigation } from "@/components/Navigation";
+import { Home } from "@/components/Home";
+import { About } from "@/components/About";
+import { Skills } from "@/components/Skills";
+import { Projects } from "@/components/Projects";
+import { Contact } from "@/components/Contact";
+import { Footer } from "@/components/Footer";
 
-import Navigation from "./components/Navigation/Navigation";
-import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
-import Education from "./components/Education/Education";
-import Professional from "./components/Professional/Professional";
-import Skills from "./components/Skills/Skills";
-import Projects from "./components/Projects/Projects";
+function App() {
 
-import 'bootstrap/dist/css/bootstrap.css';
-import "./App.css";
+  return (
+    <>
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>
+      <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+
+        <Theme />
+
+        <StarBackground />
+
         <Navigation />
-        <Home />
-        <About />
-        <Professional />
-        <Skills />
-        <Projects />
-        <Education />
-        <Contact />
+
+        <main>
+
+          <Home />
+          <About />
+          <Skills />
+          <Projects />
+          <Contact />
+
+        </main>
+
         <Footer />
+
       </div>
-    )
-  }
+
+
+    </>
+  )
 }
 
-export default App;
+export default App

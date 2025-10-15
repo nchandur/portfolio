@@ -1,5 +1,6 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Github } from "lucide-react";
 import { projects } from "@/assets/files/projects.js";
+
 
 export const Projects = () => {
     return (
@@ -65,7 +66,7 @@ export const Projects = () => {
                         target="_blank"
                         href="https://github.com/nchandur"
                     >
-                        Check My Github <ArrowRight size={16} />
+                        <Github size={25} /> <ArrowRight size={25} />
                     </a>
                 </div>
             </div>

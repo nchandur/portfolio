@@ -18,9 +18,9 @@ export const Home = () => {
 						</span>
 					</h1>
 
-					<p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ab doloribus deserunt voluptates, ducimus placeat beatae quibusdam corrupti? Labore voluptatem perspiciatis asperiores cupiditate error vel maiores exercitationem accusamus pariatur perferendis.
-					</p>
+					<h1 className="text-2xl md:text-4xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+						Cloud Engineer
+					</h1>
 
 					<div className="pt-4 opacity-0 animate-fade-in-delay-4">
 						<a href="#about" className="cosmic-button">

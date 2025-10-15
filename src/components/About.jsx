@@ -11,18 +11,18 @@ export const About = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div>
-                        <img src="images/pfp.jpg" className="rounded-4xl shadow-xl dark:shadow-gray-1000"/>
+                        <img src="images/pfp.jpg" className="rounded-4xl shadow-xl dark:shadow-gray-1000" />
 
                     </div>
 
                     <div className="space-y-6">
 
                         <p className="text-muted-foreground">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis cum ratione facere doloremque beatae dolores saepe consequuntur modi dignissimos nesciunt consectetur quibusdam, magnam deserunt ipsam porro pariatur. Commodi, ducimus ratione?
+                            I'm a Cloud Engineer who loves turning cutting-edge technologies into practical, cool applications. My passion for math and computer science drives me, and I'm always looking to learn more about both fields. I thrive on a good challenge, and that's true whether I'm tackling a complex problem in code or digging deep into a theoretical concept.
                         </p>
 
                         <p className="text-muted-foreground">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi facilis mollitia neque provident optio quibusdam consequatur animi repudiandae quod! Deleniti, voluptas! Quaerat voluptatum laborum quos eos, est nobis blanditiis rem?
+                            When I'm not working, you can probably find me out on a long trail run, immersed in a book I can't put down, or maybe locked in a Dark Souls boss fight. I enjoy pushing my limits in all aspects of life; from development and gaming to the great outdoors.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">

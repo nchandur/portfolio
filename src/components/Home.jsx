@@ -6,7 +6,7 @@ export const Home = () => {
 		>
 			<div className="container max-w-4xl mx-auto text-center z-10">
 				<div className="space-y-6">
-					<h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+					<h1 className="text-2xl md:text-4xl font-bold tracking-tight">
 						<span className="opacity-0 animate-fade-in"> Hello there, I'm</span>
 						<span className="text-primary opacity-0 animate-fade-in-delay-1">
 							{" "}
@@ -18,7 +18,7 @@ export const Home = () => {
 						</span>
 					</h1>
 
-					<h1 className="text-2xl md:text-4xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+					<h1 className="text-xl md:text-2xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
 						Cloud Engineer
 					</h1>
 

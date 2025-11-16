@@ -26,6 +26,7 @@ const skills = [
   {name: "Kubernetes", category: "cloud"},
   {name: "Docker", category: "cloud"},
   {name: "Git", category: "cloud"},
+  {name: "Jenkins", category: "cloud"}
 
 ];
 

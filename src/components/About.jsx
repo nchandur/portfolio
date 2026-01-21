@@ -22,7 +22,7 @@ export const About = () => {
                         </p>
 
                         <p className="text-muted-foreground">
-                            When I'm not building or studying, you'll catch me out on a trail, flipping through a good book, or playing video games to unwind.
+                            When I'm not building or studying, you'll catch me out on a trail, flipping through a good book, or playing video games to unwind. 
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">

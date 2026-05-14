@@ -1,6 +1,14 @@
 const projects = [
   {
     id: 1,
+    title: "Ranga",
+    description: "My Chess Engine (Work in progress)",
+    image: "images/ranga.jpg",
+    tags: ["Go"],
+    url: "https://github.com/nchandur/go-ranga"
+  },
+  {
+    id: 2,
     title: "Blackjack",
     description: "Command line Blackjack game for Linux terminal",
     image: "images/blackjack.jpg",
@@ -8,20 +16,12 @@ const projects = [
     url: "https://github.com/nchandur/blackjack"
   },
   {
-    id: 2,
+    id: 3,
     title: "GoReads!",
     description: "Content-Based Book Recommendation System",
     image: "images/goreads.jpg",
     tags: ["Go", "QdrantDB", "MongoDB", "Docker"],
     url: "https://github.com/nchandur/go-reads",
-  },
-  {
-    id: 3,
-    title: "Infinity Ledger",
-    description: "Debt Management and Expense Tracking Tool",
-    image: "images/ledger.jpg",
-    tags: ["Go", "MongoDB"],
-    url: "https://github.com/nchandur/ledger",
   },
   {
     id: 4,

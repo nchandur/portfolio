@@ -2,10 +2,10 @@ const projects = [
   {
     id: 1,
     title: "Ranga",
-    description: "My Chess Engine (Work in progress)",
+    description: "Chess Engine",
     image: "images/ranga.jpg",
     tags: ["Go"],
-    url: "https://github.com/nchandur/go-ranga"
+    url: "https://github.com/nchandur/go-ranga",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const projects = [
     description: "Command line Blackjack game for Linux terminal",
     image: "images/blackjack.jpg",
     tags: ["Go"],
-    url: "https://github.com/nchandur/blackjack"
+    url: "https://github.com/nchandur/blackjack",
   },
   {
     id: 3,
@@ -39,7 +39,6 @@ const projects = [
     tags: ["Python", "MySQL", "Flask", "HTML/CSS"],
     url: "https://github.com/nchandur/lorekeeper",
   },
-
 ];
 
 export { projects };
